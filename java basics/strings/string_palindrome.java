@@ -14,10 +14,10 @@ public class string_palindrome {
 		 str1=str1+str.charAt(i);
 		
 	}System.out.println(str1);
-	if(str.equals(str)) {
+	if(str1.equals(str)) {
 		System.out.println("palindrome");
 	}else {
-		System.out.println("not");
+		System.out.println("not Palindrome");
 	}
 		
 		
