@@ -5,7 +5,7 @@ public class reverse {
 	public static void main(String[] args) {
 	Scanner sc=new Scanner(System.in);{
 		int n,r,rev=0;
-		System.out.println("enter a no");
+		System.out.println("enter a no you want reverse");
 		n= sc.nextInt();
 		while(n>0) {
 			r=n%10;
