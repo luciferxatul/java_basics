@@ -18,11 +18,10 @@ public class diamond_pattern {
 			}
 			j=1;
 			while(j<=i*2-1) {
-				System.out.print("*");
+				System.out.print("#");
 			j++;
 		}System.out.println();
 		i++;
-	       
 	}
 	 i=n-1;
 	 while(i>0) {
@@ -32,12 +31,11 @@ public class diamond_pattern {
 			 space++;
 		 }j=1;
 		 while(j<=i*2-1) {
-			 System.out.print("*");
+			 System.out.print("#");
 			 j++;
 		 }
 		 System.out.println();
 		 i--;
 	 }
-		
-
-}}
+}
+}
